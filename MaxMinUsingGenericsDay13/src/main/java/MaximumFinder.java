@@ -15,16 +15,8 @@ public class MaximumFinder {
     }
 
     public static void main(String[] args) {
-
-        Integer max1 = findMax(7, 4, 2);
-        System.out.println("Test Case 1: Max is " + max1); //
-
-
-        Integer max2 = findMax(3, 9, 1);
-        System.out.println("Test Case 2: Max is " + max2); //
-
-
-        Integer max3 = findMax(5, 2, 8);
-        System.out.println("Test Case 3: Max is " + max3);
+        // Test Case: Find maximum among three floats
+        Float maxFloat = findMax(7.5f, 4.3f, 9.8f);
+        System.out.println("Maximum float is " + maxFloat); // Expected output: 9.8
     }
 }
